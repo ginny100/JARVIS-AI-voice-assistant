@@ -12,6 +12,7 @@ import pyjokes # Module supporting the jokes function
 
 # Init
 engine = pyttsx3.init()
+
 voices = engine.getProperty('voices')
 engine.setProperty('voices', voices[0].id)
 newVoiceRate = 190 # set the voice rate
@@ -114,7 +115,6 @@ def screenshot():
     capture = pyautogui.screenshot()
     capture.save("./screenshots/ss.png") # Save the sceenshot as a .png file
 
-
 # The CPU function - gets CPU and battery
 def cpu():
     # Get the CPU usage
@@ -192,3 +192,4 @@ if __name__ == '__main__':
             jokes()
         elif "stop" in query:
             quit()
+        
