@@ -4,7 +4,7 @@
 
 ### I'm Jarvis. How can I help you?
 
-<img align="center" src="https://qph.fs.quoracdn.net/main-qimg-2e5dcaeebfa5ec46a8aea722a56994ec" width="90%" >
+<img align="center" src="https://qph.fs.quoracdn.net/main-qimg-2e5dcaeebfa5ec46a8aea722a56994ec" width="30%" >
 
 ## Overview
 - Jarvis is capable of listening to some basic commands from user and execute them.
